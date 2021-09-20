@@ -12,3 +12,7 @@ function sum(x,...num){
 //console.log(sum(number));
 //console.log(sum([6,7,8]));
 console.log(sum(7,1,2,3,4,5));
+
+let name2 = 'Prayuth';
+let spreadName = [...name2]; // "P", "r", "a", "y", "u", "t", "h"]
+console.log(spreadName);
